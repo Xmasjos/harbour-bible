@@ -1,0 +1,21 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=harbour-bible
+Exec=harbour-bible
+Name=Bible
+# translation example:
+# your app name in German locale (de)
+#
+# Remember to comment out the following line, if you do not want to use
+# a different app name in German locale (de).
+Name[de]=Bibel
+Name[ru]=Библия
+Name[hu]=Biblia
+Name[fi]=Raamattu
+
+# added for SailJail
+[X-Sailjail]
+OrganizationName=org.tplabs
+ApplicationName=Bible
+Permissions=PublicDir;UserDirs;RemovableMedia
